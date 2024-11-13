@@ -1,0 +1,28 @@
+.about-section{
+    height: 140vh;
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #80808014;
+}
+.about-left{
+    width: 40%;
+    font-size: 18px;
+    color: gray;
+}
+.about-left div div{
+    font-size: 25px;
+    color: black;
+}
+.about-left i{
+    color: #ff008c;
+}
+.about-right{
+    width: 40%;
+}
+.about-right img{
+    width: 100%;
+    height: 100%;
+    transform: scaleY(1.1);
+}

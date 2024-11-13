@@ -1,0 +1,126 @@
+.process-container{
+    height: 140vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #80808014;
+}
+.process-left{
+    height: 100vh;
+    width: 50%;
+    /* border: 1px solid; */
+    text-align: center;
+}
+.process-left img{
+    
+    border-radius: 5px;
+    height: 110vh;
+    width: 80%;
+    /* border: 1px solid; */
+    box-shadow: 0px 25px  65px rgba(0, 0, 0, 0.1);
+    transform: translateY(-10px);
+    
+}
+
+.process-right{
+    height: 100vh;
+    width: 50%;
+    /* border: 1px solid; */
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: space-around;
+}
+.process{
+    height: 100px;
+}
+.process-right .process h1{
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+.process-container .process div{
+    width: 90%;
+    font-size: 20px;
+    /* padding-left: 20px; */
+}
+.process-right button{
+    border: none;
+    background-color: #ff005d;
+    letter-spacing: 1px;
+    width: 250px;
+    height: 60px;
+    color: white;
+    font-weight: 500;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.accordion {
+    width: 100%;
+    max-width: 800px;
+    min-height:  250px;
+    max-height:  300px;
+    /* border: 1px solid #ccc; */
+    /* border-radius: 5px; */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.accordion-item {
+    /* border-bottom: 1px solid #ccc; */
+    border: none;
+    background-color: transparent;
+}
+
+.accordion-header {
+    padding-top: 15px;
+    line-height: 30px;
+    font-size: 20px;
+    background: transparent;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+.accordion-header::after{
+    /* width: 50px;
+    height: 2.5px;
+    line-height: 2px;
+    background-color: gray; */
+
+    content: '';
+    display: block;
+    height: 2px; /* Line thickness */
+    width: 60px; /* Start with 0 width */
+    background:gray; /*Line color*/
+    transition: width 0.3s ease; /* Animation effect */
+    position: absolute;
+    bottom: -5px; /*Position below the text*/
+    left: 0;
+    
+}
+.accordion-header:hover::after{
+    width: 100%;
+    background-color: #ff0051f4;
+    transition: all ease-in-out .3s;
+}
+.accordion-header:focus::after{
+    width: 100%;
+    background-color: #ff0051f4;
+    transition: all ease-in-out .3s;
+}
+.accordion-content {
+    padding:15px 15px 15px 0; 
+
+    font-size: 18px;
+    display: none; /* Initially hidden */
+    /* background: #80808014; */
+}
+
+

@@ -1,0 +1,36 @@
+.contact-section{
+    height: 75vh;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    color: white;
+    z-index: -5;
+    background-image: url('https://rainbowit.net/html/trydo/assets/images/pattern-1.png');
+    background-color: #f80606f1;
+
+}
+.contact-section div{
+    text-align: center;    
+}
+.contact-section div p{
+    font-size: 17px;
+    letter-spacing: 3px;
+}
+.contact-section div h1{
+    font-size: 80px;
+    font-weight: 1000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact-section button{
+    height: 70px;
+    width: 220px;
+    padding: 5px 10px;
+    letter-spacing: 3px;
+    border: 2px solid white;
+    font-weight: 600;
+
+}

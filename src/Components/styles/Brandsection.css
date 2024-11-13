@@ -1,0 +1,43 @@
+.brand-section{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid; */
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.brand-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.brand{
+    height: 220px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    border: 1px solid rgba(128, 128, 128, 0.192);
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+    color: white;
+    transition: filter 0.3s ease;
+    filter: invert(0);
+    
+}
+.brand:hover{
+    z-index: 1;
+    border-radius: 5px;
+    background-color: #f9004d;
+    transform: scale(1.09);
+    transition: all ease-in-out .4s;
+
+}
+.brand:hover img{
+    filter: invert(1) brightness(2);
+    transition: filter 0.5s ease;
+}

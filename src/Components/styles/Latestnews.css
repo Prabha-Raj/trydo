@@ -1,0 +1,108 @@
+.latestnews-section{
+    height: 170vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    /* border: 1px solid; */
+    
+    
+}
+.latestnews-upper{ 
+    text-align: center;
+}
+.latestnews-upper .heading{
+    font-size: 60px;
+    font-weight: 1000;
+    text-align: center;
+}
+.latestnews-upper p{
+    font-size: 25px;
+    width: 800px;
+    color: gray;
+}
+.latestnews-lower{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+
+}
+.latestnews{
+    /* height: 550px; */
+    width: 400px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: center;
+    position: relative;
+}
+.latestnews img{
+    height: 550px;
+    width: 400px;
+    border-radius: 5px;
+}
+.latestnews-inner{
+    padding:20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(30px);
+    
+}
+.latestnews-inner button{
+    border: 2px solid #f9004d;
+    display: none;
+}
+.latestnews-inner button:hover{
+    background-color: #f9004d;
+}
+.latestnews:hover .latestnews-inner:hover{
+    transform: translateY(-30px);
+    transition: all ease-in-out .2s;
+}
+.latestnews:hover .latestnews-inner{
+    transform: translateY(-30px);
+    transition: all ease-in-out .2s;
+}
+.latestnews:hover .latestnews-inner:hover button{
+    
+    color: white;
+    display:block;
+    transition: all ease-in-out .2s;
+}
+.latestnews:hover .latestnews-inner button{
+    display:block;
+    transition: all ease-in-out .2s;
+}
+.latestnews-inner .news-title{
+    font-size: 16px;
+    color: gray;
+}
+.latestnews-inner .news-text{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+.latestnews-inner .btn-div button{
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 5px 15px;
+}
+.bg-color{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid; */
+    
+}
+.bg-color:hover{
+    background-image: linear-gradient(#f9004fdc,#0000009d);
+
+}

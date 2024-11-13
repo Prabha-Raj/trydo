@@ -1,0 +1,70 @@
+.services-wrapper{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #80808014;
+    
+}
+.service h1{
+    color: black;
+}
+
+.service{
+    height: 70%;
+    width: 25%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+}
+.first-service{
+    height: 70%;
+    width: 25%;
+    padding: 30px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-service p{
+    font-size: 18px;    
+}
+
+.service div{
+    padding-right: 10px;
+    height: 200px;
+    width: 260px;
+    
+}
+.service img{
+    
+    height: 200px;
+    width: 270px;
+}
+.service h1{
+    font-size: 20px;
+}
+
+
+
+
+.service .more{
+    cursor: pointer;
+    color: black;
+    font-weight: 300;
+}
+.service .more:hover{
+    /* height: 2px; */
+    width: 100%;
+    /* color: #ff008c; */
+    /* background: #ff008c; */
+    border-bottom: 2px solid #ff008c;
+
+    transform: scaleX(40px);
+    /* transition: all ease-in-out .5s; */
+}
